@@ -10,4 +10,9 @@
 
 @interface BLCWebBrowserViewController : UIViewController
 
+
+//Rplace web view with a fresh one
+
+- (void) resetWebView;
+
 @end
