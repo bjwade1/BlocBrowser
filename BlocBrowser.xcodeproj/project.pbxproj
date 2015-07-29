@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A04462F1B67F45C00865951 /* BLCWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04462E1B67F45C00865951 /* BLCWebBrowserViewController.m */; };
 		0A0446321B682BA000865951 /* BLCAwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0446311B682BA000865951 /* BLCAwesomeFloatingToolbar.m */; };
+		0A0446341B68682000865951 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0446331B68681F00865951 /* Default-568h@2x.png */; };
 		0AF50FA11B61E55A003C26C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF50FA01B61E55A003C26C9 /* main.m */; };
 		0AF50FA41B61E55A003C26C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF50FA31B61E55A003C26C9 /* AppDelegate.m */; };
 		0AF50FA71B61E55A003C26C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF50FA61B61E55A003C26C9 /* ViewController.m */; };
@@ -31,6 +32,7 @@
 		0A04462E1B67F45C00865951 /* BLCWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWebBrowserViewController.m; sourceTree = "<group>"; };
 		0A0446301B682BA000865951 /* BLCAwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCAwesomeFloatingToolbar.h; sourceTree = "<group>"; };
 		0A0446311B682BA000865951 /* BLCAwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCAwesomeFloatingToolbar.m; sourceTree = "<group>"; };
+		0A0446331B68681F00865951 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0AF50F9B1B61E55A003C26C9 /* BlocBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF50F9F1B61E55A003C26C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF50FA01B61E55A003C26C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		0AF50F921B61E55A003C26C9 = {
 			isa = PBXGroup;
 			children = (
+				0A0446331B68681F00865951 /* Default-568h@2x.png */,
 				0AF50F9D1B61E55A003C26C9 /* BlocBrowser */,
 				0AF50FB71B61E55A003C26C9 /* BlocBrowserTests */,
 				0AF50F9C1B61E55A003C26C9 /* Products */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF50FAC1B61E55A003C26C9 /* Images.xcassets in Resources */,
+				0A0446341B68682000865951 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
